@@ -41,7 +41,7 @@ import pandas as pd
 #     csvwriter.writerows(data)
 
 
-data = pd.read_csv('./TEE.csv')
+data = pd.read_csv('./1.1.tee/TEE.csv')
 data = data.append({'U': 1, 'Gamma':0, 'real1':0, 'real2':0, 'real3':0, 'real4':0, 'real5':0}, 
             ignore_index=True)
 data1 = data.sort_values(by=data.columns[1])

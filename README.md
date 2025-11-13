@@ -1,5 +1,5 @@
 # HartreeFock-ZGNR
-Hartree-Fock (HF) calculations for zigzag graphene nanoribbons (ZGNR). This is the Hartree-Fock approximation treatment for the Mott-Anderson Hamiltonian 
+Hartree-Fock (HF) calculations for zigzag graphene nanoribbons (ZGNR). This is the Hartree-Fock approximation for the Mott-Anderson Hamiltonian 
 
 $$
 H = -t \sum_{\left< ij \right>, \sigma} 
@@ -8,46 +8,20 @@ U \sum_{i} n_{i, \uparrow} n_{i, \downarrow} +
 \sum_{i} V_i n_{i, \sigma}.
 $$
 
-If you use this code, please cite the following work:
+
+The results obtained from this code are presented in these following publications:
 1) Phase diagram and crossover phases of topologically ordered graphene zigzag nanoribbons: role of localization effects
 Hoang-Anh Le, In-Hwan Lee, Young-Heon Kim and S.-R. Eric Yang, J. Phys.: Condens. Matter 36 265604 (2024)
 https://dx.doi.org/10.1088/1361-648X/ad38f9
-3) Exploring Topological Order of Zigzag Graphene Nanoribbons: Phase Diagram and Crossover Phases, Hoang Anh Le, PhD Thesis, Korea University (2024)
+2) Exploring Topological Order of Zigzag Graphene Nanoribbons: Phase Diagram and Crossover Phases, Hoang Anh Le, PhD Thesis, Korea University (2024)
 http://dcollection.korea.ac.kr/srch/srchDetail/000000278801
+Please cite the above works if you use this code for your scientific research. 
 
-# Plan 
+Feel free to reach me via hoanganhle <at> qns.science or lehoanganh1112 <at> gmail.com if you need assistance.
 
-In terms of writing the code, consider to write it the style of **class** in Python.
+# Usage
 
-Before doing so, just write it simple.
-
-<!-- Rename it? HartreeFock_ZGNR. -->
-
-
-Rememeber to add the citation to my thesis.
-
-
-For each calculation type, make it in an example folder.
-
-
-`HF_spinspliting.py` returns the eigensystems only
-
-Folders:
-1. ~~Geometric of the zigzag ribbon: plot the ribbon, ribbon with partitioned region (`geometry` folder: Done)~~
-
-2. ~~**qA - energy plot** (currently building)~~
-
-Better save in csv file for easy saving and viewing.
-
-3. Site spins (remember to include the edge-charge correlation analysis)
-
-4. TEE 
-
-5. ~~Fractional charge~~
-
-# HF_spinsplitting.py
-
-Return eigensystems of the ribbon: `val_up, vec_up, val_dn, vec_dn`
+`HF_spinspliting.py` and `HF_zgnr_doped.py` are the main codes, respectively used for half-filling and doped systems. They return the eigensystems of the system: `val_up, vec_up, val_dn, vec_dn` via the following function
 
 ```
 def HF_vec(Lx, Ly):
@@ -67,15 +41,20 @@ def HF_vec(Lx, Ly):
     return val_up, vec_up, val_dn, vec_dn
 ```
 
-**Things to do** 
+# Examples
+1. Compute topological entanglement entropy (Refer to Section 3.5 of my thesis)
 
-~~1. Include variables (t, gamma, U, dope) to the corresponding function.~~
+2. Visualize eigenstates (Section 3.6)
 
-~~2. Doing: the geometry folder....~~
+3. Plot $q_A$-energy diagram (Section 3.6)
 
-~~3. Notice user of using CUDA and not using CUDA.~~
+4. Plot site spins of the system (Section 3.4)
 
-~~4. Viewing fractional charge.~~
+5. Visualize the geometry of zigzag graphene nanoribbon
+
+
+
+
 
 
 
