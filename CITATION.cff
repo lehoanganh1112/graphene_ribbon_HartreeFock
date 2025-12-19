@@ -14,6 +14,7 @@ authors:
 identifiers:
   - type: doi
     value: 10.5281/zenodo.17989715
+date-released: 2025-12-19
 repository-code: >-
   https://github.com/lehoanganh1112/graphene_ribbon_HartreeFock
 keywords:
