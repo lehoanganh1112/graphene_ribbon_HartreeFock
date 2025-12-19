@@ -1,0 +1,21 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: graphene_ribbon_HartreeFock
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Hoang-Anh
+    family-names: Le
+    orcid: 'https://orcid.org/0000-0002-1668-8984'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.17989715
+repository-code: >-
+  https://github.com/lehoanganh1112/graphene_ribbon_HartreeFock
+keywords:
+  - Hartree-Fock
+  - zigzag graphene
