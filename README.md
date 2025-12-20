@@ -16,7 +16,7 @@ https://dx.doi.org/10.1088/1361-648X/ad38f9
 2) Exploring Topological Order of Zigzag Graphene Nanoribbons: Phase Diagram and Crossover Phases, Hoang Anh Le, PhD Thesis, Korea University (2024)
 http://dcollection.korea.ac.kr/srch/srchDetail/000000278801
 
-Please cite the above works if you use this code for your scientific research. 
+Please cite this software if you use it for your scientific research. 
 
 Feel free to reach me via hoanganhle at qns.science or lehoanganh1112 at gmail.com if you need assistance.
 
