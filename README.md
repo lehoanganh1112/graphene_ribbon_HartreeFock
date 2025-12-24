@@ -1,4 +1,4 @@
-# HartreeFock-ZGNR
+# HFGN: A Python code for Hartree-Fock calculations for Graphene Nanoribbons
 Hartree-Fock (HF) calculations for zigzag graphene nanoribbons (ZGNR). This is the Hartree-Fock approximation for the Mott-Anderson Hamiltonian 
 
 $$
